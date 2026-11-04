@@ -43,3 +43,21 @@ The existing offline runner now archives previous invocation artifacts and rejec
 Actual default workflow files were inspected before publication. Current HEAD Codex pr-review success and completed nonfailing CI are required before merge.
 
 The detailed receipt records clone, selected pin/base HEAD, applied patch SHA256, source SHA preservation, exact publication exclusions, execution logs, reviews/fixes/CI, PR URL and merge SHA. Review status and actual MERGED state will be checked independently before a completed claim.
+
+## Current invocation evidence and review corrections
+
+The manifest runner now archives only its known evidence filenames before launch. Unrelated caller source files and scope manifests remain in place. An actual shadow coverage child exited77 after previous successful JUnit/coverage/exit evidence was seeded: the runner returned77, wrote a fresh failure exit record and left no current stale JUnit/coverage. Archived original bytes were checked. The exact original quality scope was then rerun: {'total': 8, 'failed': 1, 'errors': 0, 'skipped': 0, 'passed': 7}, exit1; case identity and each original pass/failure status are unchanged. Empty manifest tests are rejected before pytest can discover unrelated tests. Coverage export failures propagate and do not retain old success evidence.
+
+Full reproducible command (prepared interpreter and dependency paths, no installation):
+
+```sh
+PIPELINE_EXTRA_PYTHONPATH='' /home/josh/code-asset-test-improvement-20261029/venvs/rhino-shapely-converter/bin/python tests/file50_python/pipeline/run_quality.py --coverage --output <evidence-directory>
+```
+
+Fresh positive evidence: `/home/josh/scratch/code-asset-parallel-20261101/docx-target20-20261103/test-quality-20261104/publication-python/evidence/rhino-shapely-converter/freshness-quality`. Actual subprocess negative evidence: `/home/josh/scratch/code-asset-parallel-20261101/docx-target20-20261103/test-quality-20261104/publication-python/evidence/rhino-shapely-converter/freshness-negative.log`. Original tests/expectations/logs remain preserved, and production source SHA checks still match. The output paths shown are lane-private evidence; independent users may choose any private directory.
+
+## Approved CI repair publication (2026-11-05)
+
+The user approved the concrete29-repository CI repair and15-workflow auto-tag isolation proposal with “추가승인할께 머지해”; the later explicit SHA-bound shared-reader approval records the exact workflow bytes while preserving original checks. This repository applies approved additive patch SHA256 `9a6ceb299ced86ca1c73ba0287939d3933772b143ca7632f5018a5e6806a340d` and the pre-existing cumulative runner/report corrections where present. Product source, original assertions, application locks, checker commands and genuine failures remain unchanged. No operational workflow, tag/image publication, external service, credential, manual dispatch or CI rerun is executed.
+
+Only actual current-head Sol review and completed nonfailing reported CI may permit normal merge. Historical local functional results above are reused; they are not a claim that the new remote runner passed. Undo: normal revert PR for the resulting squash commit. No quality criterion is loosened.

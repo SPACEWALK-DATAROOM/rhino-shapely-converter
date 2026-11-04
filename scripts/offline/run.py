@@ -20,28 +20,17 @@ out = args.output.resolve()
 out.mkdir(parents=True, exist_ok=True)
 # Preserve old invocation artifacts without treating them as current evidence.
 previous = [
-    path
-    for path in out.iterdir()
-    if path.is_file()
-    and path.name
-    in (
+    out / name
+    for name in (
         ".coverage",
-        ".coverage-journal",
-        ".coverage-shm",
-        ".coverage-wal",
-        "boundary.json",
-        "command.json",
-        "coverage-export.log",
         "coverage-report.txt",
         "coverage.json",
-        "deds-runtime-imports.json",
-        "exit-code.json",
         "junit.xml",
         "result.json",
-        "runtime.log",
         "stderr.txt",
         "stdout.txt",
     )
+    if (out / name).is_file()
 ]
 if previous:
     archive = Path(tempfile.mkdtemp(prefix="previous-", dir=out))
