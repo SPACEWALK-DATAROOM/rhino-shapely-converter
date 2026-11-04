@@ -1,0 +1,5 @@
+[
+  "tests/test_convert_from_shapely_to_rhino.py",
+  "tests/test_converter_from_rhino_to_shapely.py",
+  "tests/offline_contracts"
+]

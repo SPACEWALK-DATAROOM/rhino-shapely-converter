@@ -1,0 +1,14 @@
+{
+  "tests": [
+    "tests/offline_contracts/test_conversion_contracts.py",
+    "tests/offline_contracts/test_topology_and_empty.py"
+  ],
+  "source_roots": [
+    "."
+  ],
+  "import_paths": [
+    "tests/offline_contracts",
+    "src"
+  ],
+  "plugins": []
+}

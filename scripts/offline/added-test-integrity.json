@@ -1,0 +1,9 @@
+{
+  "selected_functions": [
+    "test_point_conversion_expected_coordinates_and_z_default",
+    "test_polyline_roundtrip_preserves_vertices_and_length",
+    "test_geometry_conversion_rejects_unsupported_types"
+  ],
+  "original_test_function_asts_and_decorators_preserved": true,
+  "source": "Prior added_tests/test_additional_repos_contracts.py"
+}

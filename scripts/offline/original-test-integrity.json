@@ -1,0 +1,15 @@
+{
+  "base_commit": "8a82d4e0d0d6c6dd3a8aa29ed495549512113f56",
+  "unchanged_original_tests": [
+    {
+      "path": "tests/test_convert_from_shapely_to_rhino.py",
+      "sha256": "499c80d0622be81d89fd2e196888f402808e717a07a145b3c67f93e0e9084fc0",
+      "blob_sha": "50acdf0880ebae98fa63a52b03f206ccc46e98d9"
+    },
+    {
+      "path": "tests/test_converter_from_rhino_to_shapely.py",
+      "sha256": "376ce979fd312b777ac44023d48bc28c4518e65127fc2395d1b25759aab3e9f5",
+      "blob_sha": "f167b8042a139ff29a22311ddf14e2decf4c2756"
+    }
+  ]
+}
