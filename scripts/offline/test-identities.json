@@ -1,0 +1,117 @@
+{
+  "scope": "Exact selected JUnit identity match to previous suites, no case increase.",
+  "tests": [
+    {
+      "classname": "tests.test_convert_from_shapely_to_rhino",
+      "name": "test_shapely_point_to_rhino_point3d",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_convert_from_shapely_to_rhino"
+    },
+    {
+      "classname": "tests.test_convert_from_shapely_to_rhino",
+      "name": "test_shapely_point_cloud_to_rhino_point_cloud",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_convert_from_shapely_to_rhino"
+    },
+    {
+      "classname": "tests.test_convert_from_shapely_to_rhino",
+      "name": "test_shapely_line_to_rhino_polyline",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_convert_from_shapely_to_rhino"
+    },
+    {
+      "classname": "tests.test_converter_from_rhino_to_shapely",
+      "name": "test_rhino_point_to_shapely_point[1-2-3]",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_converter_from_rhino_to_shapely"
+    },
+    {
+      "classname": "tests.test_converter_from_rhino_to_shapely",
+      "name": "test_rhino_point_to_shapely_point[4-5-6]",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_converter_from_rhino_to_shapely"
+    },
+    {
+      "classname": "tests.test_converter_from_rhino_to_shapely",
+      "name": "test_rhino_point_to_shapely_point[7-8-9]",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_converter_from_rhino_to_shapely"
+    },
+    {
+      "classname": "tests.test_converter_from_rhino_to_shapely",
+      "name": "test_rhino_point_cloud_to_shapely_point_cloud",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_converter_from_rhino_to_shapely"
+    },
+    {
+      "classname": "tests.test_converter_from_rhino_to_shapely",
+      "name": "test_rhino_line_to_shapely_line",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_converter_from_rhino_to_shapely"
+    },
+    {
+      "classname": "tests.test_converter_from_rhino_to_shapely",
+      "name": "test_rhino_polyline_to_shapely_line",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_converter_from_rhino_to_shapely"
+    },
+    {
+      "classname": "tests.test_converter_from_rhino_to_shapely",
+      "name": "test_rhino_polyline_curve_to_shapely_line",
+      "origin": "original",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "extra_original_tests.rhino-shapely-converter.tests.test_converter_from_rhino_to_shapely"
+    },
+    {
+      "classname": "tests.offline_contracts.test_conversion_contracts",
+      "name": "test_point_conversion_expected_coordinates_and_z_default[coordinates0]",
+      "origin": "added",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "added_tests.test_additional_repos_contracts"
+    },
+    {
+      "classname": "tests.offline_contracts.test_conversion_contracts",
+      "name": "test_point_conversion_expected_coordinates_and_z_default[coordinates1]",
+      "origin": "added",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "added_tests.test_additional_repos_contracts"
+    },
+    {
+      "classname": "tests.offline_contracts.test_conversion_contracts",
+      "name": "test_polyline_roundtrip_preserves_vertices_and_length",
+      "origin": "added",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "added_tests.test_additional_repos_contracts"
+    },
+    {
+      "classname": "tests.offline_contracts.test_conversion_contracts",
+      "name": "test_geometry_conversion_rejects_unsupported_types",
+      "origin": "added",
+      "status": "passed",
+      "prior_batch": "round1-final-fixed",
+      "prior_classname": "added_tests.test_additional_repos_contracts"
+    }
+  ]
+}
